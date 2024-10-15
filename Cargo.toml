@@ -1,0 +1,17 @@
+[package]
+name = "opengl_glfw"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cgmath = "0.18.0"
+gl = "0.14.0"
+image = "0.25.2"
+
+# [lib]
+# proc_macro = true
+
+[dependencies.glfw]
+version = "0.58.0"
+default-features = false
+features = ["with-window-handle-v0-5"]
